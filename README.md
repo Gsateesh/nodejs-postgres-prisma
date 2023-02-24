@@ -1,6 +1,6 @@
 # nodejs-postgres-prisma
 
-### make sure you have postgres installed and ( add test data based if app doesn't work )
+### make sure you have postgres installed ( Remember to uncheck additional tools install in installation ) and ( add test data based if app doesn't work )
 
 > npm i --save-dev prisma typescript ts-node @types/node nodemon
 
@@ -11,3 +11,5 @@
 > after creating a model in the schema.prisma file run migration command "npx prisma migrate dev --name init"
 
 > npx prisma generate
+
+> Finally run "npm run devStart"
